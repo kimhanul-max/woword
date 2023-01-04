@@ -25,6 +25,7 @@ progress::-webkit-progress-value {
 
 }
 .message{
+    font-size: 25px;
     width: 600px;
     position: absolute;
     top: 50%;
@@ -34,11 +35,12 @@ progress::-webkit-progress-value {
 }
 .profile{
     margin: 4px;
-    width: 27px;
-    height: 27px;
-    border-radius: 27px;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
 }
 .author{
+    font-size: 25px;
     position: relative;
     bottom: 10px;
     display: inline;
