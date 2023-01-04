@@ -1,0 +1,45 @@
+body{
+    margin: auto;
+    max-width: 600px;
+    text-align: center;
+}
+progress{
+    height: 1em;
+    appearance: none;
+    color: white;
+    width: 600px;
+    margin: 0;
+}
+progress::-webkit-progress-bar {
+    background:#f0f0f0;
+    border-radius:10px;
+    box-shadow: inset 3px 3px 10px #ccc;
+}
+progress::-webkit-progress-value {
+    border-radius:10px;
+    background: #1D976C;
+    background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);
+    background: linear-gradient(to right, #93F9B9, #1D976C);
+
+}
+.message{
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    margin: 0 auto;
+    left: 50%;
+    transform: translateX( -50% );
+}
+.profile{
+    margin: 4px;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+}
+.author{
+    display: inline;
+}
+.profile-wrap{
+    margin-left: 10px;
+    float: left;
+}
