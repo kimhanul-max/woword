@@ -5,7 +5,7 @@ const progress = document.querySelector("progress");
 
 function createMsg() {
     addValue();
-    i = Math.floor(Math.random() * (593 - 0)) + 0;
+    i = Math.floor(Math.random() * (mydata.length - 0)) + 0;
     author.innerText = `${mydata[i].author}`;
     message.innerText = `${mydata[i].message}`;
 }
@@ -20,5 +20,5 @@ function addValue() {
 //명언을 직접 추가할 수 있는 기능 추가
 //좋아요 기능 추가
 //공유기능 추가
-
+//태그기능 추가
 createMsg();

@@ -11,15 +11,17 @@ progress{
     margin: 0;
 }
 progress::-webkit-progress-bar {
+    height: 5px;
     background:#f0f0f0;
     border-radius:10px;
     box-shadow: inset 3px 3px 10px #ccc;
 }
 progress::-webkit-progress-value {
+    height: 5px;
     border-radius:10px;
-    background: #1D976C;
-    background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);
-    background: linear-gradient(to right, #93F9B9, #1D976C);
+    background: #50B1FA;
+    background: -webkit-linear-gradient(to right, #50B1FA, #092ED1);
+    background: linear-gradient(to right, #50B1FA, #092ED1);
 
 }
 .message{
@@ -32,11 +34,13 @@ progress::-webkit-progress-value {
 }
 .profile{
     margin: 4px;
-    width: 25px;
-    height: 25px;
-    border-radius: 25px;
+    width: 27px;
+    height: 27px;
+    border-radius: 27px;
 }
 .author{
+    position: relative;
+    bottom: 10px;
     display: inline;
 }
 .profile-wrap{
