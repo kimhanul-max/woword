@@ -1,13 +1,13 @@
 body{
     margin: auto;
-    max-width: 600px;
+    max-width: 100%;
     text-align: center;
 }
 progress{
     height: 1em;
     appearance: none;
     color: white;
-    width: 600px;
+    width: 100%;
     margin: 0;
 }
 progress::-webkit-progress-bar {
